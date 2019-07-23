@@ -9,7 +9,7 @@
   "private": false,
   "scripts": {
     "build": "tsc",
-    "run": "node app.js"
+    "app": "node app.js"
   },
   "devDependencies": {
     "typescript": "^3.5.3"

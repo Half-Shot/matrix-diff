@@ -1,0 +1,22 @@
+{
+  "name": "matrix-diff",
+  "version": "0.0.1",
+  "description": "Diff the state of a room between homeservers to determine divergence.",
+  "main": "app.js",
+  "repository": "git@github.com:Half-Shot/matrix-diff.git",
+  "author": "Will Hunt <will@half-shot.uk>",
+  "license": "APACHE-2",
+  "private": false,
+  "scripts": {
+    "build": "tsc",
+    "run": "node app.js"
+  },
+  "devDependencies": {
+    "typescript": "^3.5.3"
+  },
+  "dependencies": {
+    "@types/command-line-args": "^5.0.0",
+    "command-line-args": "^5.1.1",
+    "matrix-bot-sdk": "^0.3.9"
+  }
+}

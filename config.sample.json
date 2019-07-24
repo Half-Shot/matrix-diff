@@ -1,0 +1,8 @@
+{
+    "homeservers": [
+        {
+            "url": "https://matrix.org"
+            "accessToken": "ABCDE"
+        }
+    ]
+}

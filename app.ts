@@ -73,6 +73,9 @@ async function diffStateForRoom(roomId: string, clients: IClientSet[]) {
     if (eventsInB.length > 0) {
         console.log(`${clients[1].userId} has extra state:`, eventsInB);
     }
+
+    console.log(`Diverged state on ${clients[0].userId.split(":")[1]}: ${eventsInA.length}`);
+    console.log(`Diverged state on ${clients[1].userId.split(":")[1]}: ${eventsInB.length}`);
 }
 
 async function main() {
